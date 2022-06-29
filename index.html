@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<img src="img/mca.png" alt="">
+			</div>
+				<nav id="menu">
+					<ul>
+						<li><a href="#">ABOUT ME</a></li>
+						<li><a href="#">PORTFOLIO</a></li>
+						<li><a href="#">PHOTOGRAPHY</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+					<p class="bg-menu">MENU</p>
+					<img src="img/cruz.png" class="close-icon" onclick="closemenu()">
+				</nav>
+			<li class="menu">MENU</li>
+			<img src="img/menu.png" class="menu-icon" onclick="openmenu()">
+		</div>
+	</div>
+
+<script>
+	var menu = document.getElementById("menu")
+
+	function closemenu() {
+
+		menu.style.top = "-100vh"
+	}
+	function openmenu() {
+
+		menu.style.top = "0"
+	}
+</script>
+
+</body>
+</html>
