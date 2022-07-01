@@ -1,5 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/monument-extended');
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;800&display=swap');
 
 *{
 	margin: 0;
@@ -38,13 +37,14 @@ header{
 	margin-left: 100px;
 }
 .menu{
-	font-family:'Monument Extended', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	flex: 1;
 	text-align: right;
 	color: #fff;
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 700;
 	margin-right: 30px;
+	letter-spacing: 5px;
 
 }
 nav ul li{
@@ -52,13 +52,13 @@ nav ul li{
 	margin: 35px 0;
 }
 nav ul li a{
-	font-family:'Monument Extended', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	font-weight: 800;
 	text-decoration: none;
 	font-size: 50px;
 	color: #fff;
 	padding: 10px;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 	position: relative;
 	z-index: 4;
 }
@@ -91,7 +91,7 @@ nav{
 
 }
 .bg-menu{
-	font-family:'Monument Extended', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	color: #333;
 	font-size: 300px;
 	letter-spacing: 100px;
@@ -100,7 +100,7 @@ nav{
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
-	font-weight: 400;
+	font-weight: 800;
 	z-index: 1;
 }
 .close-icon{
@@ -112,10 +112,10 @@ nav{
 
 }
 .name{
-	font-family:'Monument Extended', sans-serif ;
+	font-family: 'Kanit', sans-serif;
 	color: #fff;
 	font-weight: 800;
-	font-size:35px;
+	font-size:40px;
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -123,14 +123,16 @@ nav{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -70%);
+	letter-spacing: 10px;
+
 }
 .words{
 	position: absolute;
-	height: 80px;
+	height: 90px;
 	width:820px;
 	top: 70%;
 	left: 50%;
-	transform: translate(-45%, 45%);
+	transform: translate(-45%, 60%);
 	overflow: hidden;
 }
 span{
@@ -138,18 +140,18 @@ span{
 	padding-left: 30px;
 	padding-top: 15px;
 	display: block;
-	font-size: 60px;
-	animation: spin_words 12s infinite;
+	font-size: 65px;
+	animation: spin_words 13s infinite;
 }
 @keyframes spin_words{
 	25%{
-		transform: translateY(-100%);
+		transform: translateY(-110%);
 	}
 	50%{
-		transform: translateY(-200%);
+		transform: translateY(-210%);
 	}
 	75%{
-		transform: translateY(-300%);
+		transform: translateY(-310%);
 	}
 	100%{
 		transform: translateY(-400%);
@@ -160,16 +162,41 @@ span{
 	width: 100%;
 	height: 600px;
 	background: #333;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: flow;
+}
+.foto{
+	height: 500px;
+	box-shadow: 2px 2px 6px #000;
+	margin-left: 2%;
 }
 .aboutme{
 	font-family: 'Kanit', sans-serif;
+	margin-top: -50px;
 	padding: 70px;
-	padding-top: 100px;
 	color: #fff;
-	font-size: 29px;
-	margin-left: 600px;
+	font-size: 25px;
 	text-align: justify;
-
+}
+button{
+	font-family: 'Kanit', sans-serif;
+	background-color: #ccf511;
+	font-size: 20px;
+	font-weight: 700;
+	position: absolute;
+	left: 27%;
+	border: 2px solid #ccf511;
+	padding: 20px 20px;
+	border-radius: 10px;
+	margin-top: 8%;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+button:hover{
+	background-color: #333;
+	color: white;
 }
 .portfolio{
 	width: 100%;
