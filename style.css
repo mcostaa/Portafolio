@@ -27,12 +27,14 @@ header{
 	z-index: 3;
 }
 .menu-icon{
-	width: 50px;
+	width: 60px;
+	height: 60px;
 	cursor: pointer;
 	margin-right: 80px;
 }
 .logo img{
-	height: 6vh;
+	height: 20vh;
+	width: auto;
 	cursor: pointer;
 	margin-left: 100px;
 }
@@ -104,7 +106,8 @@ nav{
 	z-index: 1;
 }
 .close-icon{
-	width: 50px;
+	width: 60px;
+	height: 60px;
 	position: absolute;
 	right: 80px;
 	top: 30px;
@@ -353,6 +356,7 @@ button:hover{
 }
 .icono{
 	height: 70px;
+	width: 70px;
 	margin-left: 100px;
 	margin-right: 100px;
 	cursor: pointer;
