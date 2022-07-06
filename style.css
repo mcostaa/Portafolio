@@ -9,7 +9,7 @@
 header{
 	width: 100%;
 	height: 100vh;
-	background-image:linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)),url(img/bg.JPG);
+	background-image:linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)),url(img/bg.webp);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -258,47 +258,47 @@ button:hover{
 	box-shadow: 5px 5px 0px #ccf511;
 }
 .lamp1{
-	background-image: url(img/lamp1.jpg);
+	background-image: url(img/lamp1.webp);
 	background-size: cover;
 	background-position: center;
 }
 .lamp2{
-	background-image: url(img/lamp2.jpg);
+	background-image: url(img/lamp2.webp);
 	background-size: cover;
 	background-position: center;
 }
 .lamp3{
-	background-image: url(img/lamp3.jpg);
+	background-image: url(img/lamp3.webp);
 	background-size: cover;
 	background-position: center;
 }
 .farma1{
-	background-image: url(img/farma_1.jpg);
+	background-image: url(img/farma_1.webp);
 	background-size: cover;
 	background-position: center;
 }
 .farma2{
-	background-image: url(img/farma_3.jpg);
+	background-image: url(img/farma_3.webp);
 	background-size: cover;
 	background-position: center;
 }
 .farma3{
-	background-image: url(img/farma_2.jpg);
+	background-image: url(img/farma_2.webp);
 	background-size: cover;
 	background-position: center;
 }
 .stok1{
-	background-image: url(img/stok_1.jpg);
+	background-image: url(img/stok_1.webp);
 	background-size: cover;
 	background-position: center;
 }
 .stok2{
-	background-image: url(img/stok_2.jpg);
+	background-image: url(img/stok_2.webp);
 	background-size: cover;
 	background-position: center;
 }
 .stok3{
-	background-image: url(img/stok_3.jpg);
+	background-image: url(img/stok_3.webp);
 	background-size: cover;
 	background-position: center;
 }
@@ -314,32 +314,32 @@ button:hover{
 	box-shadow: 5px 5px 0px #ccf511;
 }
 .foto1{
-	background-image: url(img/foto_1.jpg);
+	background-image: url(img/foto_1.webp);
 	background-size: cover;
 	background-position: center;	
 }
 .foto2{
-	background-image: url(img/foto_2.jpg);
+	background-image: url(img/foto_2.webp);
 	background-size: cover;
 	background-position: center;	
 }
 .foto3{
-	background-image: url(img/foto_3.jpg);
+	background-image: url(img/foto_3.webp);
 	background-size: cover;
 	background-position: center;	
 }
 .foto4{
-	background-image: url(img/foto_4.jpg);
+	background-image: url(img/foto_4.webp);
 	background-size: cover;
 	background-position: center;	
 }
 .foto5{
-	background-image: url(img/foto_5.jpg);
+	background-image: url(img/foto_5.webp);
 	background-size: cover;
 	background-position: center;	
 }
 .foto6{
-	background-image: url(img/foto_6.jpg);
+	background-image: url(img/foto_6.webp);
 	background-size: cover;
 	background-position: center;	
 }
