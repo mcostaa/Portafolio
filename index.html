@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-	<div class="name">
+	<div class="name" id="home">
 		<h1>HI. I'M <br> MATÍAS COSTA</h1>
 		<div class="words">
 			<span>DESIGNER</span>
@@ -22,14 +22,14 @@
 		<div class="container">
 			<div class="navbar">
 				<div class="logo">
-					<img src="img/mca.png" alt="">
+					<img src="img/mca.png" onclick="home()">
 				</div>
 					<nav id="menu">
 						<ul>
-							<li><a href="#">ABOUT ME</a></li>
-							<li><a href="#">PORTFOLIO</a></li>
-							<li><a href="#">PHOTOGRAPHY</a></li>
-							<li><a href="#">CONTACT</a></li>
+							<li><a href="#" onclick="scrollFunction1()">ABOUT ME</a></li>
+							<li><a href="#" onclick="scrollFunction2()">PORTFOLIO</a></li>
+							<li><a href="#" onclick="scrollFunction3()">PHOTOGRAPHY</a></li>
+							<li><a href="#" onclick="scrollFunction4()">CONTACT</a></li>
 						</ul>
 						<p class="bg-menu">MENU</p>
 						<img src="img/cruz.png" class="close-icon" onclick="closemenu()">
@@ -40,7 +40,7 @@
 		</div>
 	</header>
 
-	<div class="about">
+	<div class="about" id="about">
 		<img src="img/yop.JPG" class="foto">
 		<p class="aboutme">
 			    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in fermentum. Amet nulla facilisi morbi tempus iaculis urna. Commodo ullamcorper a lacus vestibulum. Congue eu consequat ac felis. In cursus turpis massa tincidunt dui ut ornare. Cras ornare arcu dui vivamus. Diam phasellus vestibulum lorem sed risus ultricies. Ut tellus elementum sagittis vitae. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Eros donec ac odio tempor orci dapibus ultrices. Facilisi nullam vehicula ipsum a arcu cursus.
@@ -49,8 +49,54 @@
 		</p>
 			<p class="boton"><button>More about me</button></p>
 	</div>
-	<div class="portfolio">
-		
+	<div class="portfolio"  id="portfolio">
+		<div class="flexproject">
+			<div class="main">
+				<div class="flexbox-foto-1 lamp1"></div>
+			</div>
+			<div class="secondary">
+				<div class="flexbox-foto-2 lamp2"></div>
+				<div class="flexbox-foto-3 lamp3"></div>
+				<div class="flexbox-texto"></div>
+			</div>
+		</div>
+		<div class="flexproject">
+			<div class="main">
+				<div class="flexbox-foto-1 farma1"></div>
+			</div>
+			<div class="secondary">
+				<div class="flexbox-foto-2 farma2"></div>
+				<div class="flexbox-foto-3 farma3"></div>
+				<div class="flexbox-texto"></div>
+			</div>
+		</div>
+		<div class="flexproject">
+			<div class="main">
+				<div class="flexbox-foto-1 stok1"></div>
+			</div>
+			<div class="secondary">
+				<div class="flexbox-foto-2 stok2"></div>
+				<div class="flexbox-foto-3 stok3"></div>
+				<div class="flexbox-texto"></div>
+			</div>
+		</div>
+		<div class="flexphoto" id="photo">
+			<div class="flexbox-pic foto1"></div>
+			<div class="flexbox-pic foto2"></div>			
+		</div>
+		<div class="flexphoto">
+			<div class="flexbox-pic foto3"></div>
+			<div class="flexbox-pic foto4"></div>			
+		</div>
+		<div class="flexphoto">
+			<div class="flexbox-pic foto5"></div>
+			<div class="flexbox-pic foto6"></div>			
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<a href="https://github.com/mcostaa"><img src="img/git.png" class="icono"></a>
+		<a href="mailto:matias.costa@uc.cl"><img src="img/mail.png" class="icono"></a>
+		<a href="https://www.instagram.com/_mcostaa_/"><img src="img/insta.png" class="icono"></a>
 	</div>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
@@ -74,6 +120,60 @@
 
 		menu.style.top = "0"
 	}
+
+	function home() {
+
+		window.scrollTo(0,0);
+      }
+
+	 function scrollFunction1() {
+
+	 	this.closemenu()
+	 	event.preventDefault()
+
+        let e = document.getElementById("about");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+     function scrollFunction2() {
+
+	 	this.closemenu()
+	 	event.preventDefault()
+
+        let e = document.getElementById("portfolio");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+     function scrollFunction3() {
+
+	 	this.closemenu()
+	 	event.preventDefault()
+
+        let e = document.getElementById("photo");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
+     function scrollFunction4() {
+
+	 	this.closemenu()
+	 	event.preventDefault()
+
+        let e = document.getElementById("contact");
+        e.scrollIntoView({
+          block: 'end',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
 </script>
 
 </body>
