@@ -172,6 +172,7 @@ span{
 }
 .foto{
 	height: 75%;
+	width: auto;
 	box-shadow: 5px 5px 0px #ccf511;
 	margin-left: 2%;
 }
